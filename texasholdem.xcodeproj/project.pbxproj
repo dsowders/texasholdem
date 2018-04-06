@@ -17,6 +17,9 @@
 		E8100F1D207687FF00180483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8100F1B207687FF00180483 /* LaunchScreen.storyboard */; };
 		E8100F28207687FF00180483 /* texasholdemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8100F27207687FF00180483 /* texasholdemTests.swift */; };
 		E8100F33207687FF00180483 /* texasholdemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8100F32207687FF00180483 /* texasholdemUITests.swift */; };
+		E8100F41207688B200180483 /* menucontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8100F40207688B200180483 /* menucontroller.swift */; };
+		E8100F43207688DA00180483 /* playercontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8100F42207688DA00180483 /* playercontroller.swift */; };
+		E8100F45207688F700180483 /* rulecontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8100F44207688F700180483 /* rulecontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		E8100F2E207687FF00180483 /* texasholdemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = texasholdemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8100F32207687FF00180483 /* texasholdemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = texasholdemUITests.swift; sourceTree = "<group>"; };
 		E8100F34207687FF00180483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8100F40207688B200180483 /* menucontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menucontroller.swift; sourceTree = "<group>"; };
+		E8100F42207688DA00180483 /* playercontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playercontroller.swift; sourceTree = "<group>"; };
+		E8100F44207688F700180483 /* rulecontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rulecontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				E8100F12207687FF00180483 /* GameScene.swift */,
 				E8100F14207687FF00180483 /* GameViewController.swift */,
 				E8100F16207687FF00180483 /* Main.storyboard */,
+				E8100F44207688F700180483 /* rulecontroller.swift */,
+				E8100F42207688DA00180483 /* playercontroller.swift */,
+				E8100F40207688B200180483 /* menucontroller.swift */,
 				E8100F19207687FF00180483 /* Assets.xcassets */,
 				E8100F1B207687FF00180483 /* LaunchScreen.storyboard */,
 				E8100F1E207687FF00180483 /* Info.plist */,
@@ -270,9 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8100F41207688B200180483 /* menucontroller.swift in Sources */,
 				E8100F13207687FF00180483 /* GameScene.swift in Sources */,
 				E8100F15207687FF00180483 /* GameViewController.swift in Sources */,
 				E8100F0D207687FF00180483 /* AppDelegate.swift in Sources */,
+				E8100F43207688DA00180483 /* playercontroller.swift in Sources */,
+				E8100F45207688F700180483 /* rulecontroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
