@@ -4,7 +4,8 @@
 //
 //  Created by yonk on 4/5/18.
 //  Copyright © 2018 kartikchrisderick. All rights reserved.
-// ZIMKA ZIMKA ZIMKA 
+// ZIMKA ZIMKA ZIMKA
+// zimka
 
 import UIKit
 
